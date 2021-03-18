@@ -1,0 +1,73 @@
+body{
+	background-color: AliceBlue;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	margin: 0 200px;
+}
+
+h1{
+	text-decoration: underline;
+	text-align : center;
+	font-size: 60px;
+	font-weight: bold;
+	color: darkcyan;
+	text-decoration-color: lightblue;
+}
+
+nav{
+	border-width: 5px;
+	text-align:center;
+	font-weight:bold;
+	border-style: solid;
+	border-color: black;
+	font-size: 20px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	margin: 0 150px;
+}
+
+img{
+	width: 1000px;
+	height: 600px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center;
+	border-style: solid;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	margin: 0 400px;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 50px;
+	text-decoration: underline;
+	text-decoration-color: lightblue;
+	font-weight: bold;
+	font-size: 30px;
+	color: darkgreen;
+}
